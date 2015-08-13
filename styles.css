@@ -35,6 +35,7 @@ body {
 
 }
 
+
 #back
 {
 width: 1020px;
@@ -85,7 +86,7 @@ margin-bottom: 10px;
 	color: #F8FAF7;
 }
 
-#logo H1
+#logo h1
 {
 font-size: 50px;
 padding: 0px;
@@ -101,10 +102,10 @@ padding-top: 10px;
 
 #left
 {
-	width: 229px;
+width: 229px;
 }
 
-#left H3
+#left h3
 {
 width: 214px;
 height: 35px;
@@ -147,119 +148,52 @@ background: url(images/title.png) repeat-x
 	color: #193A6C;
 }
 
-#left p
-{
+#left p {
 padding: 10px;
 }
 
-#calendar1 {
-	padding: 0 10px 20px 10px;
-}
-
-#calendar table {
-	width: 100%;
-	text-align: center;
-}
-
-#calendar thead {
-
-}
-
-#calendar tbody td {
-	border: 1px solid #F1F1F1;
-}
-
-#calendar #prev {
-	text-align: left;
-}
-
-#calendar #next {
-	text-align: right;
-}
-
-#calendar tfoot a {
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#calendar #now {
-	background: #696969;
-	border: 1px solid #ff0000;
-	font-weight: bold;
-	color: #ffffff
-}
-
-#right .date2 {
-	margin: 10px;
-	padding: 0;
-	padding-top: 3px;
-}
-
-.date2 {
-	float: left;
-	width: 53px;
-	height: 54px;
-	background: url(images/date.gif) no-repeat;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 8px;
-	font-weight: bold;
-	color: #FFFFFF;
-	vertical-align: middle;
-}
-
-
-.date2 b {
-	display: block;
-	font-size: 35px;
-	color: #193A6C;
-}
-
-
-#right
-{
-float: right;
-width: 500px;
-padding-right: 10px;
-}
-
-#right H4
-{
-	margin: 0;
-	padding: 0px;
-	font-size: 12px;
-	color: #0A254F;
-}
-
-#right a
-{
-color: #0A254F;
-text-decoration: none;
-}
-
-#right p {
-	margin: 0;
-	padding: 0;
-	padding-bottom: 10px;
+#right {
+	float: right;
+	width: 650px;
 }
 
 #right h2 {
+	height: 45px;
 	margin: 0;
-	padding: 0;
-	padding-top: 10px;
+	padding: 22px 0 0 40px;
+	color: #ffffff;
+	background: url(images/buttons.png) no-repeat;
+	background-size: 650px 65px;
+}
+
+#right h3 {
+	margin: 0;
+	padding: 0px 30px 0px 30px;
+	font-size: 14px;
+	font-weight: normal;
 	color: #0A254F;
 }
-.date {
-	text-align: right;
-	color: #193A6C;
-	font-size: 11px;
+
+#right table {
+	margin: 5px 30px 5px 30px;
+	width: 590px;
+	text-align: center;
 }
 
-.date a {
-	color: #193A6C;
+#right .pics {
+	padding: 0px 10px 5px 10px;
 }
 
+#right .words {
+	padding: 0px 10px 15px 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
 
+#right img {
+	width: 250px;
+	height: 180px;
+}
 
 #footer {
 	height: 50px;
