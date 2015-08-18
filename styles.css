@@ -36,43 +36,40 @@ body {
 }
 
 
-#back
-{
-width: 1020px;
-background: #D5E5FE;
-margin: 0 auto;
-padding-top: 10px;
+#back {
+	width: 1020px;
+	background: #D5E5FE;
+	margin: 0 auto;
+	padding-top: 10px;
 }
 
 #header {
 	text-align: left;		
 }
 
-.header_text
-{
-margin: 0 auto;
-width: 1020px;
+.header_text {
+	margin: 0 auto;
+	width: 1020px;
 }
 
-.header_image
-{
-height: 300px;
-width: 999px;
-background: url(images/header.jpg);
-margin-left: 10px; 
+.header_image {
+	height: 300px;
+	width: 999px;
+	background: url(images/header.jpg);
+	margin-left: 10px; 
 }
 
 #logo {
-width: 770px;
-height: 60px;
-text-align: left;
-padding-top: 30px;
-padding-left: 80px;
-margin-bottom: 10px;
+	width: 770px;
+	height: 60px;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 80px;
+	margin-bottom: 10px;
 }
 
 #logo img {
-	width: 58px;
+	width: 90px;
 	height: 58px;
 	float: left;
 	margin-right: 20px;
@@ -94,62 +91,56 @@ margin: 0px;
 }
 
 
-#main
-{
-padding: 10px;
-padding-top: 10px;
+#main {
+	padding: 10px;
+	margin: 0 10px 0 10px;
 }
 
-#left
-{
-width: 229px;
+#left {
+	width: 300px;
+	margin-left: 15px;
+	background: url(images/contact_bg1.png) repeat-x;
+	background-size: 100px;
+	padding-bottom: 50px;
 }
 
-#left h3
-{
-width: 214px;
-height: 35px;
-font-size: 14px;
-font-weight: bold;
-padding-left: 20px;
-padding-top: 17px;
-text-transform: uppercase;
-color: #ffffff;
-background: url(images/title.png) repeat-x
-}
-
-#left ul {
-	list-style: none;
-
-}
-
-#left li
-{
-
-}
-
-#left li ul {
-	border: 0px;
-	margin-left: 20px;
-	margin-bottom: 10px;
-}
-
-#left li li {
-	padding: 4px 20px;
-    background: url(images/small.gif) no-repeat left;
-	border: 0px;
-}
-
-#left a {
-	color: #193A6C;
+#left .title {
+	height: 31px;
+	font-size: 14px;
 	font-weight: bold;
-}
-#left a:visited {
-	color: #193A6C;
+	padding: 13px 0 10px 20px;
+	color: #ffffff;
+	background: url(images/title.png) no-repeat;
+	background-size: 300px 52px;
+	line-height: 26px;
 }
 
-#left p {
-padding: 10px;
+#left img {
+	height: 25px;
+	float: left;
+	width: 25px;
+}
+
+#left table {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#left .question4 {
+	text-align: right;
+}
+
+#left .question2 {
+	text-align: left;
+}
+
+#left .question3 {
+	text-align: right;
+	letter-spacing: 0.5vw;
+}
+
+#left .answer {
+	width: auto;
 }
 
 #right {
