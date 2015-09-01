@@ -90,7 +90,6 @@ padding: 0px;
 margin: 0px;
 }
 
-
 #main {
 	padding: 10px;
 	margin: 0 10px 0 10px;
@@ -98,10 +97,8 @@ margin: 0px;
 
 #left {
 	width: 300px;
-	margin-left: 15px;
-	background: url(images/contact_bg1.png) repeat-x;
-	background-size: 100px;
-	padding-bottom: 50px;
+	margin: 6px 0 0 15px;
+	background: url(images/test3.png) repeat-x;
 }
 
 #left .title {
@@ -110,8 +107,9 @@ margin: 0px;
 	font-weight: bold;
 	padding: 13px 0 10px 20px;
 	color: #ffffff;
-	background: url(images/title.png) no-repeat;
+	background: url(images/title2.png) no-repeat;
 	background-size: 300px 52px;
+	background-position: left top;
 	line-height: 26px;
 }
 
@@ -124,23 +122,23 @@ margin: 0px;
 #left table {
 	font-size: 14px;
 	font-weight: normal;
+	margin:10px 10px 20px 20px;
+	line-height: 20px;
 }
 
-#left .question4 {
-	text-align: right;
+#left td {
+	vertical-align: top;
+	text-align: justify;
 }
 
-#left .question2 {
-	text-align: left;
-}
-
-#left .question3 {
-	text-align: right;
-	letter-spacing: 0.5vw;
+#left .question {
+	width: 70px;
+	font-weight: bold;
+	text-align：justify
 }
 
 #left .answer {
-	width: auto;
+	text-align: left;
 }
 
 #right {
@@ -196,7 +194,7 @@ margin: 0px;
 
 #footer p {
 	margin: 0;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -215,23 +213,24 @@ margin: 0px;
 
 
 #slider-wrapper {
-    background:url(images/top.jpg) no-repeat;
-    width: 799px;
+    background:url(images/top.jpg) repeat-x;
+    width: 999px;
     height: 300px;
     margin:0 auto;
 }
 
 #slider {
 	position:relative;
-    width: 799px;
+    width: 999px;
     height: 300px;
-	background:url(images/loading.gif) no-repeat 50% 50%;
+	background:url(images/loading.gif) repeat-x 50% 50%;
 }
 #slider img {
 	position:absolute;
 	top:0px;
 	left:0px;
 	display:none;
+	width: 999px;
 }
 #slider a {
 	border:0;
