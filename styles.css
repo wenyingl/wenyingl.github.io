@@ -23,18 +23,20 @@ body {
 	color: #193A6C;
 }
 
-.test {
+.page_title {
 	margin: 0 auto;
+	width: 1020px;
 }
 
 .company_title {
-	width: 1020px;
+	width: 999px;
 	height: 60px;
 	text-align: center;
 	font-size: 27px;
 	font-family: STKaiti, KaiTi, Georgia, sans-serif;
 	color: #F8FAF7;
-	margin: 30px 210px 10px 210px;
+	margin: 0 auto;
+	padding: 30px 0 10px 0;
 }
 
 #back {
