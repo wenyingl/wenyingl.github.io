@@ -1,13 +1,7 @@
-/*
-Design by Metamorphosis Design
-http://www.metamorphozis.com
-Released for free under a Creative Commons Attribution 2.5 License
-*/
-
 *
 {
-margin: 0px;
-padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 
 a:link {
@@ -23,18 +17,22 @@ a:visited {
 	color: #193A6C;
 }
 
-body {
-	
+body {	
 	background: #6586B8 url(images/back_all.jpg) no-repeat right top;
 	font: 12px Arial;
 	color: #193A6C;
 }
 
-#content
+.company_title
 {
-
+	width: 1020px;
+	height: 60px;
+	text-align: center;
+	font-size: 27px;
+	font-family: STKaiti, KaiTi, Georgia, sans-serif;
+	color: #F8FAF7;
+	margin: 30px 210px 10px 210px;
 }
-
 
 #back {
 	width: 1020px;
@@ -47,47 +45,11 @@ body {
 	text-align: left;		
 }
 
-.header_text {
-	margin: 0 auto;
-	width: 1020px;
-}
-
 .header_image {
 	height: 300px;
 	width: 999px;
-	background: url(images/header.jpg);
+	background: url(images/slider5.jpg);
 	margin-left: 10px; 
-}
-
-#logo {
-	width: 770px;
-	height: 60px;
-	text-align: left;
-	padding-top: 30px;
-	padding-left: 80px;
-	margin-bottom: 10px;
-}
-
-#logo img {
-	width: 90px;
-	height: 58px;
-	float: left;
-	margin-right: 20px;
-	padding-left: 80px;
-}
-
-#logo a {
-	text-decoration: none;
-	text-transform: lowercase;
-	font-family: STKaiti, KaiTi, Georgia, sans-serif;
-	color: #F8FAF7;
-}
-
-#logo h1
-{
-font-size: 50px;
-padding: 0px;
-margin: 0px;
 }
 
 #main {
@@ -95,10 +57,54 @@ margin: 0px;
 	margin: 0 10px 0 10px;
 }
 
+#right {
+	float: right;
+	width: 650px;
+}
+
+#right h2 {
+	height: 45px;
+	margin: 0;
+	padding: 22px 0 0 40px;
+	color: #ffffff;
+	background: url(images/title_right.png) no-repeat;
+	background-size: 650px 65px;
+}
+
+#right h3 {
+	margin: 0;
+	padding: 0px 30px 0px 30px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #0A254F;
+}
+
+#right table {
+	margin: 5px 30px 5px 30px;
+	width: 590px;
+	text-align: center;
+}
+
+#right .pics {
+	padding: 0px 10px 5px 10px;
+}
+
+
+
+#right .verticalimg {
+	width: 180px;
+	height: 250px;
+}
+
+#right .horizontalimg {
+	width: 280px;
+	height: 180px;	
+}
+
 #left {
 	width: 300px;
 	margin: 6px 0 0 15px;
-	background: url(images/test3.png) repeat-x;
+	background: url(images/business_card_bg.png) repeat-x;
 }
 
 #left .title {
@@ -107,7 +113,7 @@ margin: 0px;
 	font-weight: bold;
 	padding: 13px 0 10px 20px;
 	color: #ffffff;
-	background: url(images/title2.png) no-repeat;
+	background: url(images/title_left.png) no-repeat;
 	background-size: 300px 52px;
 	background-position: left top;
 	line-height: 26px;
@@ -139,49 +145,6 @@ margin: 0px;
 
 #left .answer {
 	text-align: left;
-}
-
-#right {
-	float: right;
-	width: 650px;
-}
-
-#right h2 {
-	height: 45px;
-	margin: 0;
-	padding: 22px 0 0 40px;
-	color: #ffffff;
-	background: url(images/buttons.png) no-repeat;
-	background-size: 650px 65px;
-}
-
-#right h3 {
-	margin: 0;
-	padding: 0px 30px 0px 30px;
-	font-size: 14px;
-	font-weight: normal;
-	color: #0A254F;
-}
-
-#right table {
-	margin: 5px 30px 5px 30px;
-	width: 590px;
-	text-align: center;
-}
-
-#right .pics {
-	padding: 0px 10px 5px 10px;
-}
-
-#right .words {
-	padding: 0px 10px 15px 10px;
-	font-size: 14px;
-	font-weight: bold;
-}
-
-#right img {
-	width: 250px;
-	height: 180px;
 }
 
 #footer {
@@ -223,8 +186,8 @@ margin: 0px;
 	position:relative;
     width: 999px;
     height: 300px;
-	background:url(images/loading.gif) repeat-x 50% 50%;
 }
+
 #slider img {
 	position:absolute;
 	top:0px;
